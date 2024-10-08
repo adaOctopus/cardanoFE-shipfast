@@ -1,6 +1,6 @@
-# ccfl-evm-frontend
+# Cardano Fast Shippers
 
-The official frontend application for CCFL on EVM chains
+Frontend component for fullstack cardano dapps
 
 # require
 
