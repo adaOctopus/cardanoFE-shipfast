@@ -1,0 +1,50 @@
+.btnActions {
+  display: flex;
+
+  :global {
+    .btn-primary-custom {
+      font-family: Inter;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px;
+    }
+    .wallet-connect-tooltip {
+      z-index: 9;
+      .ant-tooltip-arrow {
+        &:before {
+          background: $primary-color;
+        }
+      }
+      .ant-tooltip-content {
+        left: -24px;
+        .ant-tooltip-inner {
+          background: #000;
+          padding: 16px 24px;
+          border: $primary-color 1px solid;
+          .btn-outline-custom {
+            min-width: 200px;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+            display: flex;
+            align-items: center;
+            &:hover {
+              opacity: 0.8;
+            }
+            &:last-child {
+              margin-bottom: 0px;
+            }
+            img {
+              width: 16px;
+              height: auto;
+              margin-right: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

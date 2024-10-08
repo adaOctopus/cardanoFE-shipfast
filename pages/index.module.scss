@@ -1,0 +1,9 @@
+.landingPage {
+  padding-top: $main-header-height;
+  height: 100%;
+
+  :global {
+    .landing-container {
+    }
+  }
+}
