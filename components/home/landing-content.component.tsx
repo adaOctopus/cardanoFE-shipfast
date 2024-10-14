@@ -28,16 +28,16 @@ export default function LandingContent() {
           <WorksComponent />
         </Element>
 
-        <Element name="features" className="section features">
+        <Element name="features" style={{ marginTop: "40px" }} className="section features">
           <div className="section-title" data-aos="fade-down">
             <SafeHtmlComponent htmlContent={t('LANDING_PAGE_FEATURES_TITLE')} />
           </div>
           <FeaturesComponent />
         </Element>
 
-        <Element name="why" className="section why">
+        {/* <Element name="why" className="section why">
           <WhyComponent />
-        </Element>
+        </Element> */}
 
         <Element name="form" className="section involved">
           <div className="section-title">

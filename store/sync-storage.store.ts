@@ -21,6 +21,6 @@ const createPrefixedStorage = (prefix: string) => {
 };
 
 const storage =
-  typeof window !== 'undefined' ? createPrefixedStorage('fusionFi') : createNoopStorage();
+  typeof window !== 'undefined' ? createPrefixedStorage('noname') : createNoopStorage();
 
 export default storage;

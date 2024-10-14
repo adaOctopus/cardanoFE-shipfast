@@ -26,7 +26,7 @@ export const MainFooter = () => {
       <div className="landing-page-footer" data-aos="fade-up">
         <div className="footer-content mb-108">
           <div className="footer-logo">
-            <Image src="/images/landing/banner-logo.png" alt="logo" width={260} height={64} />
+            {/* <Image src="/images/landing/banner-logo.png" alt="logo" width={260} height={64} /> */}
           </div>
           <div className="footer-navigation-links">
             <a href="#" target="_blank" className="footer-nav-link">
@@ -41,7 +41,7 @@ export const MainFooter = () => {
           </div>
         </div>
         <div className="footer-content">
-          <div className="copy-right">© 2024 FusionFi. All rights reserved.</div>
+          <div className="copy-right">© 2024 noname. All rights reserved.</div>
           <div className="social-icons">
             <a href="#" target="_blank">
               <DiscordIcon className="social-icon" />

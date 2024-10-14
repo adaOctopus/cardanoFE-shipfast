@@ -31,10 +31,10 @@ const projectId = 'e44a1758d79ad2f0154ca0b27b46b9f0';
 
 // 2. Create wagmiConfig
 const metadata = {
-  name: 'fusionfi',
-  description: 'fusionfi',
-  url: 'https://eadev.fusionfi.io', // TODO
-  icons: ['https://eadev.fusionfi.io/favicon.ico'], // TODO
+  name: 'noname',
+  description: 'noname',
+  url: '', // TODO
+  icons: [''], // TODO
 };
 
 const chains = [sepolia, avalancheFuji, polygonAmoy, mainnet] as const;
@@ -93,7 +93,7 @@ function App({ Component, ...rest }: AppProps) {
   return (
     <StyleProvider hashPriority="high">
       <Head>
-        <title>FusionFI</title>
+        <title>noname</title>
         <meta name="description" content="FUNSIONFI" key="desc" />
         <link rel="shortcut icon" href="/favicon.ico" />
         <link

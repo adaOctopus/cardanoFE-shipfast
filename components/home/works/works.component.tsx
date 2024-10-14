@@ -23,25 +23,25 @@ export default function WorksComponent() {
           <div className="content-left-bg"> </div>
           <div className="content-left-container">
             <Image
-              src="/images/landing/works/main.png"
+              src="/images/landing/banner-hand.png"
               alt="works image"
-              width={1080}
-              height={808}
+              width={1280}
+              height={908}
               className="main-image"
             />
-            <div
+            {/* <div
               data-aos="fade-down"
               data-aos-duration="500"
               data-aos-delay="500"
               className="step1-container">
               <Image
-                src="/images/landing/works/step1.png"
+                src="/images/landing/works/step.png"
                 alt="step1 image"
                 width={334}
                 height={302}
                 className="step1-image"
               />
-            </div>
+            </div> */}
             <div
               data-aos="fade-down"
               data-aos-duration="500"
@@ -68,7 +68,7 @@ export default function WorksComponent() {
                 className="step2-image"
               />
             </div>
-            <div
+            {/* <div
               data-aos="fade-down"
               data-aos-duration="500"
               data-aos-delay="2000"
@@ -80,7 +80,7 @@ export default function WorksComponent() {
                 height={148}
                 className="step3-image"
               />
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="content-right" data-aos="fade-down">
