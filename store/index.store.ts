@@ -35,7 +35,7 @@ const makeStore = ({ isServer }: { isServer: boolean }) => {
 
     const persistConfig = getPersistConfig({
       timeout: 1000,
-      key: 'fusionFi',
+      key: 'noname',
       keyPrefix: '',
       whitelist: ['global', 'auth', 'cardanoWallet'],
       storage, // Use the correct storage based on environment

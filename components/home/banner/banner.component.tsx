@@ -14,36 +14,36 @@ export default function BannerComponent() {
         <div className="banner-image">
           <div className="banner-image-bg"> </div>
           <div className="banner-image-container">
-            <Image
-              src="/images/landing/banners/fusion.png"
+            {/* <Image
+              src="/images/landing/banner-hand.png"
               alt="fusion image"
               width={1536}
               height={1536}
-              className="fusion-image fusion-image-rotate"
-            />
+              className="fusion-image "
+            /> */}
 
-            <Image
+            {/* <Image
               src="/images/landing/banners/cube.png"
               alt="cube image"
               width={808}
               height={688}
               className="cube-image"
-            />
+            /> */}
 
-            <Image
+            {/* <Image
               src="/images/landing/banners/usdc-blur.png"
               alt="usdc-blur image"
               width={201}
               height={195}
               className="usdc-blur"
-            />
-            <Image
+            /> */}
+            {/* <Image
               src="/images/landing/banners/usda.png"
               alt="usda image"
               width={298}
               height={290}
               className="usda"
-            />
+            /> */}
             <Image
               src="/images/landing/banners/dollar.png"
               alt="dollar  image"
@@ -58,13 +58,13 @@ export default function BannerComponent() {
               height={204}
               className="usdc-image"
             />
-            <Image
+            {/* <Image
               src="/images/landing/banners/usdt.png"
               alt="usdt image"
               width={292}
               height={210}
               className="usdt-image"
-            />
+            /> */}
             <Image
               src="/images/landing/banners/ada.png"
               alt="ada image"
@@ -77,7 +77,7 @@ export default function BannerComponent() {
         <div className="banner-form">
           <FormComponent className="dark-themes" />
         </div>
-        <div className="banner-infos">
+        {/* <div className="banner-infos">
           <div className="banner-info">
             <div className="content-left">
               <div className="info-title">
@@ -88,11 +88,11 @@ export default function BannerComponent() {
             <div className="content-right">
               <div className="info-description">{t('LANDING_PAGE_BANNER_ABOUT_DESCRIPTION')}</div>
             </div>
-          </div>
-          <div className="banner-info">
+          </div> */}
+        {/* <div className="banner-info">
             <div className="info-description">
-              <ul className="partners-list">
-                <li>
+              <ul className="partners-list"> */}
+        {/* <li>
                   <Image
                     src="/images/landing/partners/emurgo.png"
                     alt="emurgo logo"
@@ -118,11 +118,7 @@ export default function BannerComponent() {
                     height={103}
                     className="anzens"
                   />
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+                </li> */}
       </div>
     </div>
   );

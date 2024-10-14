@@ -82,7 +82,7 @@ export const MainHeader = () => {
     };
   }, []);
 
-  const handleNetworkSwitch = () => {};
+  const handleNetworkSwitch = () => { };
 
   /**
    * RENDERS
@@ -122,9 +122,8 @@ export const MainHeader = () => {
               <div className="external-links flex items-center">
                 <Link
                   href="/my-profile"
-                  className={`btn-outline-custom mr-4 ${
-                    router?.pathname === '/my-profile' ? 'active' : ''
-                  }`}>
+                  className={`btn-outline-custom mr-4 ${router?.pathname === '/my-profile' ? 'active' : ''
+                    }`}>
                   <UserIcon className="mr-2" /> {t('LAYOUT_MAIN_HEADER_NAV_MY_PROFILE')}
                 </Link>
               </div>
@@ -172,14 +171,14 @@ export const MainHeader = () => {
         <div className={twMerge('header-container', backgroundChange ? 'scrolled' : '')}>
           <div className="header-logo ">
             <Link href="/" className="flex justify-center items-center">
-              <Image
+              {/* <Image
                 alt="logo"
                 priority={true}
                 src="/images/logo.png"
-                width="206"
-                height="64"
+                width="150"
+                height="44"
                 className="logo-image"
-              />
+              /> */}
             </Link>
           </div>
           <HeaderContent />
